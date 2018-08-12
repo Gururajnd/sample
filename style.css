@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    overflow: hidden;
+   }
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+th{
+    font-size: 22px;
+}
+.content{
+    max-height: 300px;
+    overflow-y: auto;
+}
+.header{
+    background-color: skyblue;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header,.row{
+    width: 100%;
+}
+.header div,.row div{
+    width: 10%;
+     padding: 5px;
+}
+.main{
+    margin: 20px;
+    border: 1px solid #dcdcdc;
+    background-color:aliceblue;
+}
+.bar {
+    fill: brown;
+}
+.barchart{
+    padding: 10px;
+}
